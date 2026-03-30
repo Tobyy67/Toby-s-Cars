@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap');
+
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 960px; /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+
+
+ body {
+  margin: 0;
+  font-family: sans-serif;
+ }
+
+ .slogan {
+  color:#ffffff;
+ }
+
+ .large {
+  font-size: 100px;
+ }
+
+
+ .shop {
+  color:white;
+  font-size: 30px;
+ }
+
+ .hero {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-image: url(https://wallpaperaccess.com/full/124059.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+ .hero h1 {
+    
+    font-size: 5em;
+
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    
+    display: block;
+    width: 200px;
+    
+    border: 3px solid black;
+    border-radius: 20px;
+
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+
+
+.parallax-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url(https://wallpaperaccess.com/full/124059.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+   text-align: center;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.buffer {
+  min-height: 30vh;
+  background-color: var(--color);
+}
+
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/072/481/original/abstract-geometric-white-wallpaper-free-vector.jpg);
+  gap: 1.6em;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  max-width: 52ch;
+  padding: 1em;
+  line-height: 1.5;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  border-radius: 0.3em;
+  background-color: var(--color);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+
+
+.description-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px; 
+  flex-wrap: wrap; 
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+
+.description-text {
+  flex: 1 1 500px;  
+}
+
+
+.description {
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #111;
+  text-align: left;
+}
+
+.description2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.description-image {
+  flex: 1 1 1000px; 
+}
+
+.description-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.description-p {
+  width: 600px;
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#grad {
+  background-image: linear-gradient(to bottom, rgb(35, 35, 35), rgb(255, 255, 255));
+  padding-top: 120px;
+}
+
+#grad2 {
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(165, 215, 237));
+  padding-top: 120px;
+
+}
+
+.parallax-container3 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url(https://wallpapercrafter.com/desktop/116144-Mercedes-Benz-car-grey-cars-Detroit-gray-cars-Mercedes-AMG-GT-rear-view.png);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+   text-align: center;
+}
+
+.parallax-container4 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(https://cdn.thecoolist.com/wp-content/uploads/2017/12/Louis-Moinet-Meteoris-expensive-watch.jpg);
+  gap: 1.6em;
+}
+
+.parallax-container5 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/030/668/292/small_2x/gray-background-high-quality-free-photo.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+   text-align: center;
+}
+
+.parallax-container6 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-attachment: fixed;
+
+  background-image: url(https://images.pexels.com/photos/9951169/pexels-photo-9951169.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+
+   text-align: center;
+}
+
+
+
+.slogan2 {
+  color:#ebbf5e;
+   font-size: 190px;  
+  font-weight: bold;
+  letter-spacing: 10px;
+ }
+
+ .slogan3 {
+  color:#006cab;
+   font-size: 190px;  
+  font-weight: bold;
+  letter-spacing: 10px;
+ }
+
+  .slogan4 {
+  color:#ad0202;
+   font-size: 190px;  
+  font-weight: bold;
+  letter-spacing: 10px;
+ }
+
+
+
+.jump-links a {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+}
+
+.luxury {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.sleek {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.elegant {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.luxury:hover {
+  color:#ebbf5e;
+  transform: scale(1.25);
+}
+
+.sleek:hover {
+  color:#006cab;
+  transform: scale(1.25);
+}
+
+.elegant:hover {
+  color:#ad0202;
+  transform: scale(1.25);
+}
+
+
+------------------reviews---------------
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+textarea {
+  min-height: 250px;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 30px;
+
+  width: 90%;
+  max-width: 900px;
+
+  margin: 60px auto;
+}
+
+.container2 label {
+  display: block;
+  margin-top: 15px;
+}
+
+.container2 input,
+.container2 select,
+.container2 textarea {
+  display: block;
+  width: 100%;
+}
+
+.submit {
+  color: black;
+  background-color: rgb(183, 181, 181);
+}
+
+----------hovershop--------
+
+.container {
+  position: relative;
+  width: 60%;
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+
+
+
+.middle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background: white;
+  padding: 16px 32px;
+  color: #111;
+  font-size: 18px;
+}
+
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.car-card {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+
+.shop-grid .image {
+    width: 100%;
+    height: 700px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    display: block;
+}
+
+------------hovergallery------------
+
+.fadein img{
+opacity:0.5;
+transition: 1s ease;
+}
+
+.fadein img:hover{
+opacity:1;
+transition: 1s ease;
+}
+
+.color img{
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+}
+
+.color img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+
+.blur img{
+transition: 1s ease;
+}
+
+.blur img:hover {
+-webkit-filter: blur(5px);
+transition: 1s ease;
+}
+
+.shop-grid2 {
+  display: grid;
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  margin-right: 170px;
+  padding: 50px 0;
+}
+
+.brighten img {
+-webkit-filter: brightness(50%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+}
+
+
+
+
+------------hoverindex------------
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image2 {
+  display: block;
+  width: 90%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+    font-family: 'Poppins', 'Arial', sans-serif; 
+    font-weight: 600;     
+    font-size: 2.5rem;     
+    color: #000000;        
+    text-align: center;    
+    letter-spacing: 1px;   
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    
+    white-space: normal;   
+    line-height: 1.3;     
+    padding: 0 10px;      
+}
+
+
+------------shop-box----------------
+
+#grad h1 {
+  color: white;
+}
+
+.carss {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.carss:hover {
+  transform: scale(1.25);
+  color: rgb(230, 193, 193);
+  
+}
+
+body {
+  background: #444444;
+  text-align: center;
+}
+
+--------------------triplestream---------------
+
+.ocean-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 110px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.ocean-svg {
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+.ocean-base {
+    width: 100%;
+    height: 100px; 
+    background: #ffffff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ocean-base p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin: 0;
+}
+
+
+.wave-layer {
+    will-change: transform; 
+}
+
+
+.front {
+    animation: move-left 7s linear infinite;
+}
+
+
+.mid {
+    animation: move-right 11s linear infinite;
+}
+
+
+.back {
+    animation: move-right 16s linear infinite;
+}
+
+
+@keyframes move-right {
+    0% { transform: translateX(-90px); }
+    100% { transform: translateX(85px); }
+}
+
+
+@keyframes move-left {
+    0% { transform: translateX(85px); }
+    100% { transform: translateX(-90px); }
+}
+
+
+---------------navbar-------------
+
+
+body {
+		font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: #fffdfd;
+		text-align: center;
+		padding: 0 2em;
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+        letter-spacing: 1rem;
+        font-size: 200px;
+
+    }
+
+}
+
+html {
+
+	--text: #FFF;
+	background: #ffffff;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 1.5rem;
+}
+
+nav {
+	width: 100%;
+	background-color: rgba(76, 76, 76, 0.36);
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5rem;
+	backdrop-filter: blur(4px);
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+  justify-content: space-between;
+	width: 80%;
+	li {
+		font-weight: bold;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: var(--text);
+}
+
+
+h2 {
+	transition: font-size 1000ms ease-out;
+   font-size: 500vw;	
+	 color: #797979;
+	 background: -webkit-linear-gradient(45deg, #c41717, #12e02e 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+
+.logo {
+   background: -webkit-linear-gradient(45deg, #000000, #000000 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	 -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+   
+}

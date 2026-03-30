@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+        <section class="et-hero-tabs">
+    <h1 class="logo">CONTACT</h1>
+  </section>
+
+  <header>
+	<nav>
+		<ul>
+			<li><a href="../html/index.html">HOME</a></li>
+			<li><a href="../html/shop.html">SHOP</a></li>
+			<li><a href="../html/about.html">ABOUT</a></li>
+			<li><a href="../html/gallery.html">GALLERY</a></li>
+        <li><a href="../html/contact.html">CONTACT</a> </li>
+		</ul>
+	</nav>
+</header>
+
+
+<div class="container2">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="region">Region</label>
+    <select id="region" name="region">
+      <option value="coq">Coquitlam</option>
+      <option value="poco">Port Coquitlam</option>
+      <option value="moody">Port Moody</option>
+    </select>
+
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Your phone number...">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <a class="submit" href="../html/sorry.html">Submit</a>
+
+  </form>
+</div>
+
+
+
+    
+</body>
+
+
+
+
+<footer class="ocean-container">
+    <svg class="ocean-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+        <defs>
+            <path id="wave-pattern" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="waves-group">
+            <use xlink:href="#wave-pattern" x="48" y="0" fill="rgba(0, 0, 0, 1)" class="wave-layer back" />
+            
+            <use xlink:href="#wave-pattern" x="48" y="3" fill="rgba(208, 208, 208, 1)" class="wave-layer mid" />
+            
+            <use xlink:href="#wave-pattern" x="48" y="7" fill="#FFFFFF" class="wave-layer front" />
+        </g>
+    </svg>
+    <div class="ocean-base">
+    </div>
+</footer>
+</html>
